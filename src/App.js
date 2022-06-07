@@ -8,7 +8,7 @@ import Navbar from './Pages/Shared/Navbar';
 
 function App() {
   return (
-    <div>
+    <div className='mx-12'>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />}></Route>
