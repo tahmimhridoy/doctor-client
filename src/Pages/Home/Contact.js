@@ -14,9 +14,9 @@ const Contact = () => {
                 <h2 className='text-3xl text-white'>Stay Connected With Us</h2>
             </div>
             <div className='flex flex-col items-center mt-12'>
-                <input type="text" placeholder="Email Address" class="input input-bordered w-full max-w-xs" />
-                <input type="text" placeholder="Subject" class="input input-bordered w-full max-w-xs my-5" />
-                <textarea class="textarea textarea-bordered w-full max-w-xs mb-6" placeholder="Your Message"></textarea>
+                <input type="text" placeholder="Email Address" className="input input-bordered w-full max-w-xs" />
+                <input type="text" placeholder="Subject" className="input input-bordered w-full max-w-xs my-5" />
+                <textarea className="textarea textarea-bordered w-full max-w-xs mb-6" placeholder="Your Message"></textarea>
                 <PrimaryButton>Submit</PrimaryButton>
             </div>
         </section>
